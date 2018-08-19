@@ -1,0 +1,30 @@
+{
+  "name": "dbload",
+  "version": "1.0.0",
+  "description": "Load external api data to a MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsk900/dbload.git"
+  },
+  "author": "Joseph Urbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsk900/dbload/issues"
+  },
+  "homepage": "https://github.com/jsk900/dbload#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
