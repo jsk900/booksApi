@@ -4,7 +4,7 @@
   "description": "Load external api data to a MongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
